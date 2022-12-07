@@ -11,8 +11,14 @@ export default {
 
 <template>
     <h1>
-        <span class="title1">{{ title1 }}</span>
-        <span class="title2">{{ title2 }}</span>
+        <span class="title1">
+            <font-awesome-icon icon="fa-brands fa-vuejs" />
+            {{ title1 }}
+        </span>
+        <span class="title2">
+            {{ title2 }}
+            <font-awesome-icon icon="fa-brands fa-square-js" />
+        </span>
     </h1>
 </template>
 
